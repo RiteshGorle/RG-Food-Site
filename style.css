@@ -1,0 +1,179 @@
+/* WebSite Name: Desi Donne Food Website
+   Made by: Ritesh Gorle
+   Created: may 2022
+   Content: Food Product website
+*/
+
+
+/******************************/
+/*    01. BASIC CSS Style     */
+/******************************/
+
+body{
+      background: url('background.png');
+      background-size:cover ;
+    }
+
+h1, h4{
+  color: #771D17;
+}
+
+p{
+  font-size: 14px;
+  font-weight: 600;
+}
+
+
+/***************************************/
+/* 02. navigation and Biryani Image    */
+/***************************************/
+
+.fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.topcen{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #D2A16C;
+
+}
+
+
+
+/******************************/
+/*    03. BASIC CSS Style     */
+/******************************/
+.container-fluid {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 100px;
+  left: 34px;
+  width: 300px;
+height: 200px;
+}
+
+
+.bottom-right {
+ 
+  bottom: 1px;
+  right: 4px;
+  position: absolute;
+width: 300px;
+height: 300px;
+
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+/******************************/
+/* 04. two successful Brands  */
+/******************************/
+.card1{
+  width: 200px;
+  height: 100px;
+}
+
+.card2{
+  width: 200px;
+  height: 100px;
+
+}
+
+
+/******************************/
+/*    05. BASIC CSS Style     */
+/******************************/
+
+.Icon_Info .Icon_Info_real i {
+     background: #FFDAAB;
+     width: 120px;
+     height: 120px;
+     border-radius: 77px;
+     border: #490000 solid 4px;
+     align-items: center;
+     display: flex;
+     justify-content: center;
+     margin: 0 auto;
+     flex-wrap: wrap;
+     transition: ease-in all 0.5s;
+}
+
+
+.Icon_Info .Icon_Info_real {
+     text-align: center;
+     background-color: transparent;
+     padding: 20px 15px;
+}
+
+
+
+/******************************/
+/*    06. carousel     */
+/******************************/
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+/******************************/
+/*    07. Footer              */
+/******************************/
+
+.position-relative{
+  background: url('back2.jpg');
+}
+
+
+
+/******************************/
+/*    08. Logo                */
+/******************************/
+.log{
+  width: 200px;
+  height: 200px;
+
+}
+
+
+/******************************/
+/*    09. SVG image map       */
+/******************************/
+.svg2{
+  margin-top: 100px;
+  margin-right: 30px ;
+
+}
+
+
